@@ -15,7 +15,10 @@
 
 
 ## Link to Website
-https://rlacer.github.io/Advanced-CSS-Portfolio/
+https://rlacer.github.io/03-javascript-homework/
+
 
 ## Screenshot
-![screenshot](assets/images/hw2.png)
+![screenshot](images/javahw.png)
+
+
