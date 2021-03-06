@@ -1,3 +1,4 @@
+// html line 28
 var generateBtn = document.querySelector("#generate");
 
 // possible characters
@@ -18,7 +19,7 @@ function getRandom(arr) {
 }
 
 
-// // Write password to the #password input
+// // Write password to the #password input (html line 22)
 
 function writePassword() {
    var password = generatePassword();
@@ -78,15 +79,15 @@ return result.join("");
 
 // user options
 function getPasswordOptions() {
-  var length = parseInt(prompt("How many characters in your password? Enter a number between 1 and 28"));
+  var length = parseInt(prompt("How many characters in your password? Enter a number from 8 to 128"));
   console.log(length);
   if (isNaN(length) === true) {
     alert("Password length must be a number!");
     return;
   };
 
-  if (length < 1 || length > 28) {
-    alert("Password must be betweeen 1 and 28 characters!");
+  if (length < 8 || length > 128) {
+    alert("Password must be 8 to 128 characters!");
     return;
   };
 // confirm boxes for character options
