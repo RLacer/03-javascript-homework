@@ -64,14 +64,13 @@ if (options.hasLower) {
 for (let i = 0; i < options.length; i++) {
   var newChar = getRandom(possChars);
   result.push(newChar);
- console.log("RESULT1",result); 
+
 
   
 }
 for (let i = 0; i < guarChars.length; i++) {
  result[i] = guarChars[i];
- console.log("RESULT2",result);
-
+ 
   
 }
 return result.join("");
@@ -95,7 +94,7 @@ function getPasswordOptions() {
   var hasNum = confirm("Would you like to use numbers?");
   var hasUpper = confirm("Would you like to use uppercase letters?");
   var hasLower = confirm("Would you like to use lowercase letters?");
-console.log(confirm);
+
   if (
     hasSpecChars === false &&
     hasNum === false &&
