@@ -15,7 +15,7 @@
 
 
 ## Link to Website
-https://rlacer.github.io/03-javascript-homework/
+https://rlacer.github.io/03-javascript-password-generator/
 
 
 ## Screenshot
